@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <h2>ColorCode <span>PaletteGenerator</span></h2>
+    </div>
+</nav>
+<div class="container">
+    <div>
+        <ul>
+            <div *ngFor="let item of Model ">
+                <li (click)="onColorCodeClick(item)" [style.background-color]="item"></li>
+            </div>
+        </ul>
+    </div>
+    <div style="padding-left: 45%;">
+        <button type="button" class="btn btn-outline-dark btn-lg" (click)="onClick()"> Generate</button>
+    </div>
+</div>

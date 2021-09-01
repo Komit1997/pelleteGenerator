@@ -1,0 +1,44 @@
+*{
+    margin:50px auto;
+    padding:0;
+    box-sizing: border-box;
+    background-color: azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+span{
+    color:crimson;
+
+}
+
+.navbar-header {
+    text-align:center;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 95%;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+.container ul li{
+    list-style: none;
+    float: left;
+    width:20%;
+    height:200px;
+    margin: 40px 0px;
+    box-sizing: border-box;
+    border: 2;
+
+}
+
+.button {
+    align-content: center;
+    background-color: #4CAF50;
+}
+
